@@ -29,7 +29,7 @@ function paintGreetings() {
   quote.classList.remove(HIDDEN_CLASSNAME);
   weatherClassList.remove(HIDDEN_CLASSNAME);
   toDoFormClassList.remove(HIDDEN_CLASSNAME);
-  greeting.innerText = `${username}!, Taking Off!`;
+  greeting.innerText = `Welcome! ${username}!`;
 }
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
