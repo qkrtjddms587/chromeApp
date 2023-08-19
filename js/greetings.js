@@ -18,7 +18,7 @@ function onLoginSubmit(event) {
     body.classList.add("text-shadow");
     localStorage.setItem(USERNAME_KEY, loginInput.value);
     paintGreetings();
-
+  } else {
     alert("Password is Wrong!, Try again!");
   }
 }
